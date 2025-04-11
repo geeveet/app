@@ -8,6 +8,8 @@ body{
     background-color: #E3EAF8;
     color: NAVY;
     font-family: "montserrat", sans-serif;
+    background-image: url(img/fondo_mapa.jpg);
+    background-repeat: no-repeat;
 }
 
 /* 
@@ -46,15 +48,6 @@ footer{
     width: 100%;
     background-color: beige;
     text-align: center;
-}
-
-.omitir{
-    text-align: right;
-    margin: 35px;
-    font-size: 12px;
-    font-family: "montserrat", sans-serif;
-    font-weight: bold;
-    color: #718FC7;
 }
 
 .selector_perfil{
@@ -96,6 +89,7 @@ footer{
     height: auto;
     width: 430px;
     margin: 36px auto;
+    
 }
 
 .content p{
@@ -108,58 +102,11 @@ footer{
 }
 
 
-
-#02 p{
-    font-size: 16px;
-    text-align: center;
-    text-decoration: dashed;
-    color: #1F2F50;
-    line-height: 23px;
-}
-
 .seleccionauno{
     font-family: "montserrat", sans-serif;
     font-size: 17px;
     font-weight: 400;
     margin: 35px;
-}
-
-.enrere{
-    height: 30px;
-    width: 120px;
-    background-color: #718FC6;
-    color: white;
-    position: fixed;
-    font-weight: bold;
-    left: 60px;
-    bottom: 70px;
-    text-align: center;
-    font-size: 12px;
-    line-height: 28px;
-    border-radius: 15px;
-}
-
-
-
-.siguiente{
-    height: 30px;
-    width: 120px;
-    background-color: #718FC6;
-    color: white;
-    position: fixed;
-    z-index: 50;
-    right: 60px;
-    bottom: 70px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 12px;
-    line-height: 28px;
-    border-radius: 15px;
-}
-
-.siguiente:hover{
-    color:#718FC6;
-    background-color: white;
 }
 
 .formulario_voluntario{
@@ -249,7 +196,7 @@ h2{
 
 
 .logo{
-    width: 302px;
+    width: 145px;
     margin: 39,37px auto;
 }
 
@@ -332,3 +279,55 @@ h2{
     transform: translateY(-20px);
 }
 
+
+
+.search-container {
+    position: relative; 
+    flex-grow: 1; 
+    display: flex;
+    top: 20px;
+    justify-content: center; 
+}
+  
+.search-container input {
+    padding: 6px;
+    padding-left: 10px;
+    width: 80%;
+    height: 35px;
+    border: none;
+    font-size: 17px;
+    border-style: solid;
+    border-color: rgb(31, 48, 81);
+    border-radius: 20px;
+}
+  
+.search-results {
+    display: none; 
+    position: absolute;
+    top: 50px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 10;
+}
+  
+.search-results p {
+    padding: 10px;
+    margin: 0;
+    color: #1E2F50;
+    cursor: pointer;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.search-results a{
+    text-decoration: none;
+}
+  
+.search-results p:hover {
+    background-color: #f1f1f1;
+}
