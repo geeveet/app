@@ -298,12 +298,14 @@ h2{
     font-weight: bold; 
 }
 
+/* ---------- BARRA FOOTER NO TOCAR ------------- */
+
 .menu-barra {
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 68px;
-    background: url('barra.svg') no-repeat center bottom;
+    background: url('img/barramenu_movil.svg') no-repeat center bottom;
     background-size: cover;
     display: flex;
     justify-content: space-evenly;
@@ -322,10 +324,8 @@ h2{
   }
   
   .icono img {
-    width: 28px;
-    height: 28px;
-    filter: invert(1); /* si el fondo es oscuro */
     transition: 0.2s ease;
+    filter: brightness(100);
   }
   
   .icono:hover img {
@@ -335,5 +335,4 @@ h2{
   .icono.centro {
     transform: translateY(-20px);
   }
-  
 
