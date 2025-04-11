@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.2</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONTS UTILITZADES -->
+
+    <!-- DAZZLE UNICASE -->
+    <link rel="stylesheet" href="https://use.typekit.net/fok2dtg.css">
+
+    <!-- MONTSERRAT -->
+    <link rel="stylesheet" href="https://use.typekit.net/fok2dtg.css">
+
+    <!-- --------------------- -->
+</head>
+
+<body id="3_2">
+   
+
+    <a href="mapa_preview.html"><p class="omitir">OMITIR</p></a>
+
+    <div class="content">
+
+        
+        <img class="logo" src="img/logo_geeveet.png">
+
+        <div class="questionari_voluntari">
+
+            <h2 class="emplena_formulari">Categories</h2>
+            
+            <div class="categoria">
+                <h5>AMBIENTAL</h5>
+            </div>
+            <div class="categoria">
+                <h5>CULTURAL</h5>
+            </div>
+            <div class="categoria">
+                <h5>ESPORTIU</h5>
+            </div>
+            <div class="categoria">
+                <h5>EDUCATIU</h5>
+            </div>
+            <div class="categoria">
+                <h5>OCI I TEMPS LLIURE</h5>
+            </div>
+            <div class="categoria">
+                <h5>INTERNACIONAL</h5>
+            </div>
+            <div class="categoria">
+                <h5>SOCIAL</h5>
+            </div>
+            <div class="categoria">
+                <h5>ALTRES</h5>
+            </div>
+
+            <h2 class="emplena_formulari">Quin és el teu radi d'ajuda?</h2>
+        <div contenteditable="true" class="formulario_voluntario">
+            <p>3km</p>
+        </div>
+
+        </div>
+
+        
+ 
+        
+    </div>
+    
+    <a href="selecciona_perfil.html">
+        <div class="enrere">Enrere</div>
+    </a>
+    <a href="pagina_principal.html"><div class="siguiente">Següent</div></a>
+
+    <!-- ESTO HACE QUE FUNCIONE LA SELECCION DE BOTONES
+    CUIDADO NO BORRAR!!! -->
+
+    <script>
+        document.querySelectorAll('.categoria').forEach(categoria => {
+            categoria.addEventListener('click', () => {
+                categoria.classList.toggle('seleccionada');
+            });
+        });
+    </script>
+
+
+</body>
+</html>

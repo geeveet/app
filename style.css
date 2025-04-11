@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body{
+    background-color: #E3EAF8;
+    color: NAVY;
+    font-family: "montserrat", sans-serif;
+}
+
+/* 
+
+--------Dazzle Unicase Thin
+font-family: "dazzle-unicase", sans-serif;
+font-weight: 200;
+font-style: normal;
+
+--------Dazzle Unicase Light
+font-family: "dazzle-unicase", sans-serif;
+font-weight: 300;
+font-style: normal;
+
+--------Dazzle Unicase Medium
+font-family: "dazzle-unicase", sans-serif;
+font-weight: 500;
+font-style: normal;
+
+--------Dazzle Unicase Bold
+font-family: "dazzle-unicase", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+*/
+
+header{
+    height: 60px;
+    background-color: gray;
+}
+
+footer{
+    position:fixed;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: beige;
+    text-align: center;
+}
+
+.omitir{
+    text-align: right;
+    margin: 35px;
+    font-size: 12px;
+    font-family: "montserrat", sans-serif;
+    font-weight: bold;
+    color: #718FC7;
+}
+
+.selector_perfil{
+    width: 309px;
+    height: 154px;
+    background-color: #1E2F50;
+    margin: 18px auto;
+    border-radius: 15px;
+    display:flex;
+}
+
+.selector_perfil h2{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin: 64px 0 0 44px;
+}
+
+.selector_perfil svg{
+    height: 60px;
+    left: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+    fill: white;
+}
+
+.selector_perfil:nth-child(2) svg{
+    left:70px;
+}
+
+
+.content a{
+    text-decoration: none;
+}
+
+.content{
+    text-align: center;
+    color: black;
+    height: auto;
+    width: 430px;
+    margin: 36px auto;
+}
+
+.content p{
+    font-size: 16px;
+    text-align: center;
+    text-decoration: dashed;
+    margin: 34px 60px 0 60px;
+    color: #1F2F50;
+    line-height: 23px;
+}
+
+
+
+#02 p{
+    font-size: 16px;
+    text-align: center;
+    text-decoration: dashed;
+    color: #1F2F50;
+    line-height: 23px;
+}
+
+.seleccionauno{
+    font-family: "montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 35px;
+}
+
+.enrere{
+    height: 30px;
+    width: 120px;
+    background-color: #718FC6;
+    color: white;
+    position: fixed;
+    font-weight: bold;
+    left: 60px;
+    bottom: 70px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 28px;
+    border-radius: 15px;
+}
+
+
+
+.siguiente{
+    height: 30px;
+    width: 120px;
+    background-color: #718FC6;
+    color: white;
+    position: fixed;
+    z-index: 50;
+    right: 60px;
+    bottom: 70px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    line-height: 28px;
+    border-radius: 15px;
+}
+
+.siguiente:hover{
+    color:#718FC6;
+    background-color: white;
+}
+
+.formulario_voluntario{
+    width: 309px;
+    height: 44px;
+    background-color: #fff;
+    margin: 6px auto;
+    border-radius: 15px;
+    display:flex;
+    border-color: #1E2F50;
+    border-style: solid;
+}
+
+.formulario_voluntario_motivacion{
+    width: 309px;
+    height: 140px;
+    background-color: #fff;
+    margin: 6px auto 18px;
+    border-radius: 15px;
+    display:flex;
+    border-color: #1E2F50;
+    border-style: solid;
+}
+
+.formulario_voluntario_foto{
+    width: 309px;
+    height: 440px;
+    background-color: #fff;
+    margin: 6px auto 18px;
+    border-radius: 15px;
+    fill: #1E2F50;
+    display:flex;
+    border-color: #1E2F50;
+    border-style: solid;
+}
+
+.formulario_voluntario_foto svg{
+    margin: 15px 20px;
+    fill: #1E2F50;
+}
+
+.formulario_registro_app{
+    width: 309px;
+    height: 44px;
+    background-color: #fff;
+    margin: 18px auto;
+    border-radius: 15px;
+    display:flex;
+    border-color: #1E2F50;
+    border-style: solid;
+}
+
+.formulario_voluntario_motivacion p{
+    margin: 13px 20px;
+    opacity: 60%;
+}
+
+.formulario_voluntario p{
+    margin: auto 20px;
+    opacity: 60%;
+    color: #B5B5B5;
+}
+
+.formulario_registro_app p{
+    margin: auto auto;
+    text-align: center;
+    opacity: 100%;
+}
+
+.questionari_voluntari{
+    margin-top: 57px;
+}
+
+.questionari_voluntari h2{
+    text-align: left;
+    margin: 18px 70px 0;
+}
+
+h2{
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 57px auto 0;
+    font-size: 17px;
+    color: #1E2F50;
+}
+
+
+.logo{
+    width: 302px;
+    margin: 39,37px auto;
+}
+
+.icono_inicio{
+    margin: 70px auto 0;
+    display: flex;
+}
+
+
+.termes_condicions{
+    font-size: 12px;
+}
+
+.categoria{
+    width: 145px;
+    height: 45px;
+    background-color: white;
+    border-color: #1E2F50;
+    border-style: solid;
+    margin: 10px;
+    display:inline-block;
+    border-radius: 15px;
+    border-width: 2px;
+    color: #1E2F50;
+}
+
+.categoria:hover:not(.seleccionada) {
+    background-color: #1E2F50;
+    border-color: white;
+    color: white;
+}
+
+.categoria.seleccionada {
+    background-color: #1E2F50;
+    color: white;
+    border-color: white;
+}
+
+
+.categoria h5{
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+    margin: 16px auto;
+    font-weight: bold; 
+}
+
+.menu-barra {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 68px;
+    background: url('barra.svg') no-repeat center bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    z-index: 100;
+  }
+  
+  .icono {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+  }
+  
+  .icono img {
+    width: 28px;
+    height: 28px;
+    filter: invert(1); /* si el fondo es oscuro */
+    transition: 0.2s ease;
+  }
+  
+  .icono:hover img {
+    transform: scale(1.2);
+  }
+  
+  .icono.centro {
+    transform: translateY(-20px);
+  }
+  
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICI</title>
+    <link rel="stylesheet" href="slider.css">
+
+    <!-- FONTS UTILITZADES -->
+
+    <!-- DAZZLE UNICASE -->
+    <link rel="stylesheet" href="https://use.typekit.net/fok2dtg.css">
+
+    <!-- MONTSERRAT -->
+    <link rel="stylesheet" href="https://use.typekit.net/fok2dtg.css">
+
+    <!-- --------------------- -->
+</head>
+
+
+<body id="01">
+
+    <a href="mapa_preview.html"><p class="omitir"><U>OMETRE</U></p></a>
+    
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img/cap_1.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img/cap_2.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img/cap_3.jpg" style="width:100%"> 
+        </div>
+      
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+     
+    
+    <a href="selecciona_perfil.html"><div class="siguiente">Següent</div></a>
+</body>
+
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+
+</script>
+</html>

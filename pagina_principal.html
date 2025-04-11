@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICI</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONTS UTILITZADES -->
+
+    <!-- DAZZLE UNICASE -->
+    <link rel="stylesheet" href="https://use.typekit.net/fok2dtg.css">
+
+    <!-- MONTSERRAT -->
+    <link rel="stylesheet" href="https://use.typekit.net/fok2dtg.css">
+
+    <!-- --------------------- -->
+</head>
+
+<body id="3_2">
+   
+
+    <div class="content">
+
+        
+        <img class="logo" src="img/logo_geeveet.png">
+
+       
+        
+ 
+        
+
+
+
+        
+    </div>
+    
+    <footer class="menu-barra">
+        <div class="icono"><img src="img/icono" alt="Icono 1"></div>
+        <div class="icono"><img src="icons/2.svg" alt="Icono 2"></div>
+        <div class="icono centro"><img src="icons/3.svg" alt="Icono 3"></div>
+        <div class="icono"><img src="icons/4.svg" alt="Icono 4"></div>
+        <div class="icono"><img src="icons/5.svg" alt="Icono 5"></div>
+      </footer>
+    
+   
+
+    <!-- ESTO HACE QUE FUNCIONE LA SELECCION DE BOTONES DE .CATEGORIA
+    CUIDADO NO BORRAR!!! -->
+
+    <script>
+        document.querySelectorAll('.categoria').forEach(categoria => {
+            categoria.addEventListener('click', () => {
+                categoria.classList.toggle('seleccionada');
+            });
+        });
+    </script>
+
+    <!-- ESTO HACE QUE FUNCIONE LA SELECCION DE BOTONES DE .CATEGORIA
+        CUIDADO NO BORRAR!!! -->
+    
+</body>
+</html>
