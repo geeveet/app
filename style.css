@@ -8,6 +8,8 @@ body{
     background-color: #E3EAF8;
     color: NAVY;
     font-family: "montserrat", sans-serif;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 /* 
@@ -215,6 +217,7 @@ footer{
 .formulario_voluntario_motivacion p{
     margin: 13px 20px;
     opacity: 60%;
+    color: #B5B5B5;
 }
 
 .formulario_voluntario p{
@@ -331,4 +334,6 @@ h2{
 .icono.centro {
     transform: translateY(-20px);
 }
+
+
 

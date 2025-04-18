@@ -4,12 +4,14 @@
     position: relative;
 }
 
+
 body{
     background-color: #E3EAF8;
     color: NAVY;
     font-family: "montserrat", sans-serif;
     background-image: url(img/fondo_mapa.jpg);
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 
 /* 
@@ -305,8 +307,8 @@ h2{
     display: none; 
     position: absolute;
     top: 50px; 
-    left: 50%;
-    transform: translateX(-50%); 
+    margin: 0 auto;
+    width: 80%;
     text-decoration: none;
     background-color: white;
     border: 1px solid #ddd;
@@ -322,6 +324,7 @@ h2{
     cursor: pointer;
     font-weight: 500;
     font-style: normal;
+    text-align: left;
 }
   
 .search-results a{
@@ -330,4 +333,83 @@ h2{
   
 .search-results p:hover {
     background-color: #f1f1f1;
+}
+
+
+/* ---------- GEEVEETS --------- */
+
+.geeveet_popup{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 305px;
+    width: -webkit-fill-available;; /* usar vw en lugar de % */
+    z-index: 10;
+    background-color: white;
+    border-radius: 15px;
+    border-color: #1E2F50;
+    border-style: inset;
+    display: none;
+}
+
+.titol_geeveet{
+    margin: 20px auto auto 45px;
+}
+
+.dades_geeveet{
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;   
+    font-size: 17px;
+    margin: 13px auto auto 45px;
+    color: #1E2F50;
+    
+}
+
+  
+.geeveet_popup .foto_geeveet{
+    height: 110px;
+    width: 80%;
+    margin: 25px auto;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+}
+
+.geeveet_popup.visible{
+    display: block;
+}
+
+.givit{
+    position: fixed;
+    height: 45px;
+    transition: height 0.2s ease;
+}
+
+
+
+.one{
+    left: 320px;
+    top: 220px;
+}
+
+.two{
+    left: 80px;
+    top: 190px;
+}
+
+.three{
+    left: 230px;
+    top: 340px;
+}
+
+.four{
+    left: 160px;
+    top: 490px;
+}
+
+.givit.activa {
+    height: 55px;
+}
+.givit:hover {
+    height: 55px;
 }
