@@ -57,9 +57,16 @@
             </div>
 
             <h2 class="emplena_formulari">Quin és el teu radi d'ajuda?</h2>
-        <div contenteditable="true" class="formulario_voluntario">
-            <p>3km</p>
-        </div>
+            <div class="slider-container">
+                <label for="distancia">Distància: <span id="valorDistancia">50 km</span></label>
+                
+                <div class="slider-labels">
+                  <span>0 km</span>
+                  <span>+200 km</span>
+                </div>
+                
+                <input type="range" class="slider" min="0" max="200" value="50" id="distancia" oninput="actualitzarDistancia(this.value)">
+              </div>
 
         </div>
 
@@ -82,7 +89,27 @@
                 categoria.classList.toggle('seleccionada');
             });
         });
+
+        // ----- ESTO ES EL SLIDER DE KM
+
+        const slider = document.getElementById("distancia");
+
+        function actualitzarDistancia(valor) {
+            const span = document.getElementById("valorDistancia");
+            const percent = (valor / slider.max) * 100;
+            slider.style.background = `linear-gradient(to right, #1E2F50 ${percent}%, #FFF ${percent}%)`;
+
+            if (valor == slider.max) {
+            span.innerText = "+200 km (màxim)";
+            } else {
+            span.innerText = `${valor} km`;
+            }
+        }
+
+        actualitzarDistancia(slider.value);
+
     </script>
+    
 
 
 </body>
