@@ -77,14 +77,14 @@ footer{
 
 .selector_perfil svg{
     height: 60px;
-    left: 80px;
+    right: -50px;
     margin-top: auto;
     margin-bottom: auto;
     fill: white;
 }
 
 .selector_perfil:nth-child(2) svg{
-    left:70px;
+    left:90px;
 }
 
 
@@ -236,7 +236,7 @@ footer{
 }
 
 .questionari_voluntari{
-    margin-top: 57px;
+    margin-top: 44px;
 }
 
 .questionari_voluntari h2{
@@ -264,7 +264,7 @@ h2{
 }
 
 .icono_inicio{
-    margin: 70px auto 0;
+    margin: 50px auto -20px;
     display: flex;
 }
 
