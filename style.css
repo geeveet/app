@@ -126,7 +126,7 @@ footer{
     font-family: "montserrat", sans-serif;
     font-size: 17px;
     font-weight: 400;
-    margin: 35px;
+    margin: 26px;
 }
 
 .enrere{
@@ -241,7 +241,7 @@ footer{
 
 .questionari_voluntari h2{
     text-align: left;
-    margin: 18px 70px 0;
+    margin: 18px 50px 0;
 }
 
 h2{
@@ -251,6 +251,10 @@ h2{
     margin: 56px auto 0;
     font-size: 17px;
     color: #1E2F50;
+}
+
+.quin_ets{
+    margin: 0 auto 0;
 }
 
 
