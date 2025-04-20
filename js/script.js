@@ -72,3 +72,11 @@ function showSlides() {
 
 let slideIndex = 0;
 showSlides();
+
+const popupContainer = document.querySelector('.geeveet_popup');
+
+if (popupContainer) {
+    popupContainer.addEventListener('click', () => {
+        window.location.href = 'voluntari_geeveet_especifico.html'; // Cambia esto por la URL que quieras
+    });
+}

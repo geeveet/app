@@ -351,6 +351,7 @@ h2{
     border-radius: 15px;
     border-color: #1E2F50;
     border-style: inset;
+    cursor: pointer;
     display: none;
 }
 
