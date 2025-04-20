@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3.2</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- FONTS UTILITZADES -->
 
@@ -80,35 +80,12 @@
     </a>
     <a href="pagina_principal.html"><div class="siguiente">Següent</div></a>
 
-    <!-- ESTO HACE QUE FUNCIONE LA SELECCION DE BOTONES
-    CUIDADO NO BORRAR!!! -->
 
-    <script>
-        document.querySelectorAll('.categoria').forEach(categoria => {
-            categoria.addEventListener('click', () => {
-                categoria.classList.toggle('seleccionada');
-            });
-        });
 
-        // ----- ESTO ES EL SLIDER DE KM
 
-        const slider = document.getElementById("distancia");
 
-        function actualitzarDistancia(valor) {
-            const span = document.getElementById("valorDistancia");
-            const percent = (valor / slider.max) * 100;
-            slider.style.background = `linear-gradient(to right, #1E2F50 ${percent}%, #FFF ${percent}%)`;
-
-            if (valor == slider.max) {
-            span.innerText = "+200 km (màxim)";
-            } else {
-            span.innerText = `${valor} km`;
-            }
-        }
-
-        actualitzarDistancia(slider.value);
-
-    </script>
+    
+    <script src="js/script.js"></script>
     
 
 

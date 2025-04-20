@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INICI</title>
-    <link rel="stylesheet" href="stylegeneral.css">
+    <link rel="stylesheet" href="css/stylegeneral.css">
 
     <!-- FONTS UTILITZADES -->
 
@@ -58,58 +58,7 @@
         <div class="icono"><img src="img/icono-18.svg" alt="Icono 5"></div>
     </footer>
     
-   
+    <script src="js/script.js"></script>
 
-    <!-- ESTO HACE QUE FUNCIONE LA SELECCION DE BOTONES DE .CATEGORIA
-    CUIDADO NO BORRAR PORFIIII!!! -->
-
-    <script>
-        document.querySelectorAll('.categoria').forEach(categoria => {
-            categoria.addEventListener('click', () => {
-                categoria.classList.toggle('seleccionada');
-            });
-        });
-
-        function mostrarResultados() {
-        document.getElementById("searchResults").style.display = "block";
-        }
-
-        function mostrarResultados() {
-        document.getElementById("searchResults").style.display = "block";
-        }
-
-        document.addEventListener("click", function(event) {
-        let searchContainer = document.querySelector(".search-container");
-        if (!searchContainer.contains(event.target)) {
-            document.getElementById("searchResults").style.display = "none";
-        }
-        });
-
-        const givitImgs = document.querySelectorAll('.givit');
-    const popup = document.querySelector('.geeveet_popup');
-
-    givitImgs.forEach(givit => {
-        givit.addEventListener('click', () => {
-            // Si ya estaba activa → desactiva todo
-            if (givit.classList.contains('activa')) {
-                givit.classList.remove('activa');
-                popup.classList.remove('visible');
-                return;
-            }
-
-            // Desactiva todos
-            givitImgs.forEach(g => g.classList.remove('activa'));
-
-            // Activa el que clicaste
-            givit.classList.add('activa');
-            popup.classList.add('visible');
-        });
-    });
-        
-    </script>
-
-    <!-- ESTO HACE QUE FUNCIONE LA SELECCION DE BOTONES DE .CATEGORIA
-        CUIDADO NO BORRAR!!! -->
-    
 </body>
 </html>
