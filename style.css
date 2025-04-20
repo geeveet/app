@@ -191,7 +191,7 @@ footer{
 
 .formulario_voluntario_foto{
     width: 309px;
-    height: 440px;
+    height: 200px;
     background-color: #fff;
     margin: 6px auto 18px;
     border-radius: 15px;
@@ -204,6 +204,11 @@ footer{
 .formulario_voluntario_foto svg{
     margin: 15px 20px;
     fill: #1E2F50;
+}
+
+.questionari_voluntari .texto_foto{
+    text-align: left;
+    margin: 0px 0px 0px 50px;
 }
 
 .formulario_registro_app{
