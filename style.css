@@ -96,8 +96,12 @@ footer{
     text-align: center;
     color: black;
     height: auto;
-    width: 430px;
+    width: 100%;
+    max-width: 430px;
     margin: 36px auto;
+    padding: 0 15px;
+    box-sizing: border-box
+    
 }
 
 .content p{
