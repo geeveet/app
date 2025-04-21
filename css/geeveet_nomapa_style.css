@@ -192,9 +192,8 @@ h2{
     font-family: "montserrat", sans-serif;
     font-weight: 400;   
     font-size: 16px;
-    margin: 0px auto 0px;
+    margin: 0px auto 6px;
     color: #1E2F50;
-    
 }
 
 .nom_entitat{
@@ -232,5 +231,23 @@ h2{
 
 .geeveet{
     text-align: left;
-    margin: 0 30px 90px 30px;
+    margin: 0 40px 90px 40px;
+}
+
+.subtitol_geeveet{
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;   
+    font-size: 17px;
+    margin: 20px auto 6px;
+    color: #1E2F50;
+}
+
+
+.geeveet p{
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;   
+    font-size: 12px;
+    margin: 0px auto 6px;
+    text-align: left;
+    color: #1E2F50;
 }
