@@ -389,3 +389,175 @@ h2{
 .botons_finals{
     margin-top: 70px;
 }
+
+.search-container {
+    position: relative; 
+    flex-grow: 1; 
+    display: flex;
+    top: 20px;
+    justify-content: center; 
+}
+  
+.search-container input {
+    padding: 6px;
+    padding-left: 10px;
+    width: 80%;
+    height: 35px;
+    border: none;
+    font-size: 17px;
+    border-style: solid;
+    border-color: rgb(31, 48, 81);
+    border-radius: 20px;
+}
+  
+.search-results {
+    display: none; 
+    position: absolute;
+    top: 50px; 
+    margin: 0 auto;
+    width: 80%;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 10;
+}
+  
+.search-results p {
+    padding: 10px;
+    margin: 0;
+    color: #1E2F50;
+    cursor: pointer;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+}
+  
+.search-results a{
+    text-decoration: none;
+}
+  
+.search-results p:hover {
+    background-color: #f1f1f1;
+}
+
+.geeveets_scroll{
+    margin-top: 40px;
+}
+
+.geeveet_buscador{
+    width: 80%;
+    height: 118px;
+    margin: 10px auto;
+    border-radius: 18px;
+    background-color: #ddd;
+    
+}
+
+.buscador_titol{
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;   
+    font-size: 17px;
+    margin: 0;
+    max-width: 70%;
+    color: #fff;
+    text-align: left;
+}
+
+.buscador_dades{
+    position: absolute;
+    left: 0px;
+    top: 45%;
+    transform: translateY(-50%);
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;   
+    font-size: 15px;
+    color: #fff;
+    text-align: left; 
+}
+
+.geeveet_buscador {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;   
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding: 20px;
+    color: white;
+    margin-bottom: 16px;
+    overflow: hidden; 
+}
+.geeveet_buscador::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+    border-radius: 16px;
+}
+
+
+.geeveet_buscador * {
+    position: relative;
+    z-index: 1;
+}
+
+
+.buscador_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.buscador_aforament {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    gap: 5px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;   
+    white-space: nowrap;
+}
+
+.icon_aforo {
+    width: 18px;
+    height: 18px;
+}
+
+.buscador_fav {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.icon_fav {
+    width: 20px;
+    height: 20px;
+}
+
+.fondo1 {
+    background-image: url('../img/pexels-olly-3791664.jpg');
+    background-size: cover;
+}
+.fondo2 {
+    background-image: url('../img/school-1974369_1280.jpg');
+    background-size: cover;
+}
+.fondo3 {
+    background-image: url('../img/school-8980534_1280.jpg');
+    background-size: cover;
+}
+.fondo4 {
+    background-image: url('../img/pexels-katetrysh-4090012.jpg');
+    background-size: cover;
+}
+.fondo5 {
+    background-image: url('../img/jaspinder-singh-lpyWikRUqsI-unsplash.jpg');
+    background-size: cover;
+}

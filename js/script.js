@@ -24,35 +24,46 @@ if (slider && span) {
 
 // ----- MOSTRAR Y OCULTAR RESULTADOS EN BUSCADOR
 const searchResults = document.getElementById("searchResults");
-const searchContainer = document.querySelector(".search-container");
+const searchContainer = document.querySelector('.search-container');
 
-if (searchResults && searchContainer) {
-    document.addEventListener("click", function(event) {
-        if (!searchContainer.contains(event.target)) {
-            searchResults.style.display = "none";
-        }
+if (searchContainer) {
+    searchContainer.addEventListener('click', () => {
+        window.location.href = 'voluntari_buscador.html';
     });
 }
 
+
+
 // ----- GEEVEET EN MAPA
 const givitImgs = document.querySelectorAll('.givit');
-const popup = document.querySelector('.geeveet_popup');
+const geeveetPopups = document.querySelectorAll('.geeveet_popup');
 
-if (popup && givitImgs.length > 0) {
+if (givitImgs.length > 0 && geeveetPopups.length > 0) {
     givitImgs.forEach(givit => {
         givit.addEventListener('click', () => {
-            const activa = givit.classList.contains('activa');
+            const id = givit.dataset.id;
 
+            // Toggle del activo
+            const yaActivo = givit.classList.contains('activa');
             givitImgs.forEach(g => g.classList.remove('activa'));
-            popup.classList.remove('visible');
+            geeveetPopups.forEach(p => p.classList.remove('visible'));
 
-            if (!activa) {
+            if (!yaActivo) {
                 givit.classList.add('activa');
-                popup.classList.add('visible');
+                const popupToShow = document.querySelector(`.geeveet_popup[data-id="${id}"]`);
+                if (popupToShow) popupToShow.classList.add('visible');
             }
         });
     });
 }
+
+const popupContainers = document.querySelectorAll('.geeveet_popup');
+
+popupContainers.forEach(popup => {
+    popup.addEventListener('click', () => {
+        window.location.href = 'voluntari_geeveet_especifico.html'; // Cambia esto por la URL que quieras
+    });
+});
 
 // ----- SLIDER DE FOTOS (solo en slider.html)
 function showSlides() {
@@ -72,11 +83,3 @@ function showSlides() {
 
 let slideIndex = 0;
 showSlides();
-
-const popupContainer = document.querySelector('.geeveet_popup');
-
-if (popupContainer) {
-    popupContainer.addEventListener('click', () => {
-        window.location.href = 'voluntari_geeveet_especifico.html'; // Cambia esto por la URL que quieras
-    });
-}
