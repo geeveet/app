@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-36a6ecd8-764e-4609-9770-873d724629df" data-name="Dimensions" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .uuid-8f35943b-da3d-43e5-9e32-8588c65cb60c {
+        fill: none;
+      }
+
+      .uuid-e39dd1cd-dab5-4662-a1c6-9d9b766e8137 {
+        clip-path: url(#uuid-0848ce4a-6b59-4485-9edd-8b38d7209c9b);
+      }
+
+      .uuid-70b81767-ffb0-45b4-86c7-ee1eeb3017ea {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="uuid-0848ce4a-6b59-4485-9edd-8b38d7209c9b">
+      <rect class="uuid-8f35943b-da3d-43e5-9e32-8588c65cb60c" width="20" height="20"/>
+    </clipPath>
+  </defs>
+  <g id="uuid-5815c717-319f-400e-ac01-2212438f35e2" data-name="Grupo 1766">
+    <path id="uuid-d86445f6-bd8c-4def-b735-d5ef34f89d19" data-name="Trazado 756" class="uuid-70b81767-ffb0-45b4-86c7-ee1eeb3017ea" d="M8.566,13.594c-.472-.009-.923-.193-1.266-.517-.8-.774-1.6-1.554-2.41-2.327-.115-.11-.135-.187-.012-.31.336-.333.667-.673.986-1.023.139-.152.226-.123.357.006.72.709,1.451,1.408,2.168,2.119.135.134.208.124.338,0,1.62-1.6,3.244-3.195,4.871-4.784.219-.215.221-.214.43,0,.313.317.621.638.939.95.118.116.14.2.008.327-1.711,1.677-3.42,3.357-5.125,5.04-.345.332-.804.52-1.283.525"/>
+    <g id="uuid-72cd288d-1963-415d-887b-944089885fbb" data-name="Grupo 1038">
+      <g class="uuid-e39dd1cd-dab5-4662-a1c6-9d9b766e8137">
+        <g id="uuid-e17ae7c6-2d0d-4cdd-9911-7dcda1fc835e" data-name="Grupo 1036">
+          <path id="uuid-49350c55-308a-48d7-937f-30acfb416f50" data-name="Trazado 758" class="uuid-70b81767-ffb0-45b4-86c7-ee1eeb3017ea" d="M9.916,20C4.44,20,0,15.56,0,10.084S4.44.168,9.916.168s9.916,4.44,9.916,9.916h0c-.006,5.474-4.442,9.91-9.916,9.916M9.916,1.919C5.407,1.919,1.751,5.575,1.751,10.084s3.656,8.165,8.165,8.165,8.165-3.656,8.165-8.165c-.005-4.507-3.658-8.16-8.165-8.165"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

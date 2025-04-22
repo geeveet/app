@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-85b74c5b-90bf-4c81-b691-581245fa2a7e" data-name="Dimensions" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 30">
+  <defs>
+    <style>
+      .uuid-cacca8f4-bac6-4d7f-86b8-e72db5734948 {
+        fill: #b8c5e7;
+      }
+    </style>
+  </defs>
+  <g id="uuid-bf4d4307-33c7-488d-8995-349e4eac97be" data-name="Grupo 1009">
+    <circle id="uuid-9b30fc6f-04cf-4b77-a325-6fedf8c97210" data-name="Elipse 341" class="uuid-cacca8f4-bac6-4d7f-86b8-e72db5734948" cx="3" cy="2.954" r="3"/>
+    <circle id="uuid-83a7db48-efcf-497c-9d81-63cd7206d78c" data-name="Elipse 342" class="uuid-cacca8f4-bac6-4d7f-86b8-e72db5734948" cx="3" cy="26.954" r="3"/>
+    <circle id="uuid-7a5241ab-c81b-424d-a57d-0aafc3e33c77" data-name="Elipse 343" class="uuid-cacca8f4-bac6-4d7f-86b8-e72db5734948" cx="3" cy="14.954" r="3"/>
+    <path id="uuid-7068717e-cdcd-4959-990f-b7611792f914" data-name="Rectángulo 1749" class="uuid-cacca8f4-bac6-4d7f-86b8-e72db5734948" d="M11.5,1.454h21c.828,0,1.5.672,1.5,1.5h0c0,.828-.672,1.5-1.5,1.5H11.5c-.828,0-1.5-.672-1.5-1.5h0c0-.828.672-1.5,1.5-1.5Z"/>
+    <path id="uuid-c8a79cca-b227-4477-bf07-5ce140160e7e" data-name="Rectángulo 1750" class="uuid-cacca8f4-bac6-4d7f-86b8-e72db5734948" d="M11.5,25.454h21c.828,0,1.5.672,1.5,1.5h0c0,.828-.672,1.5-1.5,1.5H11.5c-.828,0-1.5-.672-1.5-1.5h0c0-.828.672-1.5,1.5-1.5Z"/>
+    <path id="uuid-103a5688-8113-48bd-88b5-1915728a4322" data-name="Rectángulo 1751" class="uuid-cacca8f4-bac6-4d7f-86b8-e72db5734948" d="M11.5,13.454h21c.828,0,1.5.672,1.5,1.5h0c0,.828-.672,1.5-1.5,1.5H11.5c-.828,0-1.5-.672-1.5-1.5h0c0-.828.672-1.5,1.5-1.5Z"/>
+  </g>
+</svg>

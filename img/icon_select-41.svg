@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-38a6ea40-0ee6-4f28-bf48-7161768197d7" data-name="Dimensions" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.852 30">
+  <defs>
+    <style>
+      .uuid-faccb0d1-81d3-4a3d-a9e2-a3b62d0727fc {
+        fill: #b8c5e7;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="uuid-387a66cd-4044-43f6-97be-21e19838d25d" data-name="Heart" class="uuid-faccb0d1-81d3-4a3d-a9e2-a3b62d0727fc" d="M31.135,2.671c-3.546-3.59-9.331-3.626-12.921-.08-.027.027-.053.053-.08.08l-1.282,1.278-1.279-1.278C11.916-.852,6.095-.743,2.572,2.914-.857,6.475-.857,12.111,2.572,15.671l14.28,14.283,14.283-14.282c3.59-3.544,3.627-9.328.083-12.918-.027-.028-.055-.055-.083-.083"/>
+</svg>

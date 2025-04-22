@@ -180,10 +180,17 @@ h2{
 .icono img {
     transition: 0.2s ease;
     fill: #fff;
+    height: 30px;
 }
 
-.icono.centro {
+.icono.centro{
     transform: translateY(-20px);
+    height: 32px;
+}
+
+.icono .icono_menugeeveet{
+    height: 41px;
+    transform: translateY(-14px);
 }
 
 
@@ -448,7 +455,7 @@ h2{
 
 .geeveet_buscador{
     width: 80%;
-    height: 118px;
+    height: 100px;
     margin: 10px auto;
     border-radius: 18px;
     background-color: #ddd;
@@ -475,10 +482,21 @@ h2{
     text-align: left;
 }
 
+.notificacions_titol{
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;   
+    font-size: 17px;
+    margin: 0;
+    max-width: 80%;
+    color: #fff;
+    text-align: left;
+}
+
+
 .buscador_dades{
     position: absolute;
     left: 0px;
-    top: 30%;
+    top: 15%;
     transform: translateY(-50%);
     font-family: "montserrat", sans-serif;
     font-weight: 400;   
@@ -651,6 +669,11 @@ h2{
     margin-top: 0px;
 }
 
+.geeveets_scroll_notificacions{
+    margin-top: 0px;
+}
+
+
 .titol_preferits{
     font-size: 20px;
     line-height: 12px;
@@ -666,4 +689,23 @@ h2{
     font-family: "montserrat", sans-serif;
     margin: auto 30px auto 30px;
     font-weight: 400; 
+}
+
+.notificacions_top {
+    display: flex;
+    align-items: start;
+}
+
+.notificacions_top img{
+    margin: auto 6px auto 0px;
+}
+
+.geeveet_buscador .desc_notificacion{
+    font-size: 16px;
+    text-align: left;
+    text-decoration: dashed;
+    margin: 6px 0px 0 0px;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 23px;
 }
