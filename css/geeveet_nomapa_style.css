@@ -457,10 +457,20 @@ h2{
 
 .buscador_titol{
     font-family: "montserrat", sans-serif;
-    font-weight: 600;   
+    font-weight: 500;   
     font-size: 17px;
     margin: 0;
-    max-width: 70%;
+    max-width: 50%;
+    color: #fff;
+    text-align: left;
+}
+
+.recomanats_titol{
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;   
+    font-size: 17px;
+    margin: 0;
+    max-width: 80%;
     color: #fff;
     text-align: left;
 }
@@ -468,7 +478,7 @@ h2{
 .buscador_dades{
     position: absolute;
     left: 0px;
-    top: 45%;
+    top: 30%;
     transform: translateY(-50%);
     font-family: "montserrat", sans-serif;
     font-weight: 400;   
@@ -560,4 +570,82 @@ h2{
 .fondo5 {
     background-image: url('../img/jaspinder-singh-lpyWikRUqsI-unsplash.jpg');
     background-size: cover;
+}
+
+.fondo6 {
+    background-image: url('../img/img_entidad.jpg');
+    background-size: cover;
+}
+
+.categories_recomanats{
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 17px;
+    text-align: left;
+    margin: 45px 40px 0;
+    color: #1E2F50;
+}
+
+.geeveets_recomanats{
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 17px;
+    text-align: left;
+    margin: 20px 40px 0;
+    color: #1E2F50;
+}
+
+.categoria_recomanacions{
+    width: 175PX;
+    height: 45px;
+    background-color: white;
+    border-color: #1F2F50;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 15px;
+    border-width: 2px;
+    color: #1F2F50;
+}
+
+.categoria_recomanacions h5{
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+    margin: 16px auto;
+    font-weight: bold; 
+}
+
+.categories_wrapper{
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 10px; /* fila-columna */
+    justify-items: center;
+    margin-top: 6px;
+    justify-content: center;
+}
+
+.geeveets_scroll_recomanats{
+    margin-top: 0px;
+}
+
+.titol_preferits{
+    font-size: 20px;
+    line-height: 12px;
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+    margin: 40px auto 20px auto;
+    font-weight: 600; 
+}
+
+.desc_preferits{
+    font-size: 16px;
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+    margin: auto 30px auto 30px;
+    font-weight: 400; 
 }
