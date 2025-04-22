@@ -534,8 +534,21 @@ h2{
     white-space: nowrap;
 }
 
+.buscador_estrelles {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    gap: 5px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;   
+}
+
 .icon_aforo {
     width: 18px;
+    height: 18px;
+}
+
+.icon_estrelles {
     height: 18px;
 }
 
@@ -573,6 +586,11 @@ h2{
 }
 
 .fondo6 {
+    background-image: url('../img/img_entidad.jpg');
+    background-size: cover;
+}
+
+.fondo7 {
     background-image: url('../img/img_entidad.jpg');
     background-size: cover;
 }
