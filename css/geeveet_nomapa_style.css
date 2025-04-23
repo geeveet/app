@@ -714,8 +714,7 @@ h2{
 .perfil{
     height: auto;
     width: 90%;
-    margin: 0 auto;
-    background-color: #B5B5B5;
+    margin: 36px auto 0px;
     display: flex;
 }
 
@@ -741,4 +740,78 @@ h2{
 .perfil .info_perfil{
     width: 50%;
     margin: 0 auto;
+}
+
+.perfil .nom_voluntari{
+    text-align: left;
+}
+
+
+.nom_voluntari{
+    margin: 0px auto 0; 
+}
+
+.categories_perfil_volun{
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 17px;
+    text-align: left;
+    margin: 40px 40px 0;
+    color: #1E2F50;
+}
+
+.ajust{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 50;
+}
+
+.voluntari_perfil_ajust{
+    margin-top: 40px;
+}
+
+.voluntari_perfil_ajust h2{
+    text-align: left;
+    margin: 20px 40px 0;
+    font-size: 17px;
+}
+
+.formulario_perfil_ajust{
+    width: 83%;
+    height: 45px;
+    background-color: #fff;
+    margin: 6px auto;
+    border-radius: 15px;
+    display:flex;
+    border-color: #1E2F50;
+    border-style: solid;
+}
+
+.formulario_perfil_ajust p{
+    margin: 12px 20px;
+    color: #1E2F50;
+    text-align: left;
+}
+
+.formulario_perfil_ajust_moti{
+    width: 83%;
+    height: 160px;
+    background-color: #fff;
+    margin: 6px auto;
+    border-radius: 15px;
+    display:flex;
+    border-color: #1E2F50;
+    border-style: solid;
+}
+
+.formulario_perfil_ajust_moti p{
+    margin: 12px 20px;
+    color: #1E2F50;
+    text-align: left;
+}
+
+.botons_finals_formulari{
+    margin-top: 40px;
 }
