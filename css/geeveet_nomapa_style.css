@@ -712,8 +712,9 @@ h2{
 
 
 .perfil{
-    height: 145px;
-    width: 100%;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
     background-color: #B5B5B5;
     display: flex;
 }
@@ -729,11 +730,15 @@ h2{
 
 .perfil .desc_perfil_voluntari{
     font-size: 12px;
-    width: 50%;
-    text-align: center;
+    text-align: justify;
     font-weight: 300;
     line-height: 10px;
     margin: 0px 0px 0 0px;
     color: #1F2F50;
     line-height: 23px;
+}
+
+.perfil .info_perfil{
+    width: 50%;
+    margin: 0 auto;
 }
