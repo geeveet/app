@@ -455,7 +455,7 @@ h2{
 
 .geeveet_buscador{
     width: 80%;
-    height: 100px;
+    height: 90px;
     margin: 10px auto;
     border-radius: 18px;
     background-color: #ddd;
@@ -496,7 +496,7 @@ h2{
 .buscador_dades{
     position: absolute;
     left: 0px;
-    top: 15%;
+    top: 10%;
     transform: translateY(-50%);
     font-family: "montserrat", sans-serif;
     font-weight: 400;   
@@ -604,7 +604,7 @@ h2{
 }
 
 .fondo6 {
-    background-image: url('../img/img_entidad.jpg');
+    background-image: url('../img/fondo_entitat.png');
     background-size: cover;
 }
 
@@ -707,5 +707,33 @@ h2{
     margin: 6px 0px 0 0px;
     color: #ffffff;
     font-weight: 300;
+    line-height: 23px;
+}
+
+
+.perfil{
+    height: 145px;
+    width: 100%;
+    background-color: #B5B5B5;
+    display: flex;
+}
+
+.perfil .foto_perfil{
+    height: 145px;
+    width: 165px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/beautiful-volunteer-woman-posing-city-park.jpg');
+}
+
+.perfil .desc_perfil_voluntari{
+    font-size: 12px;
+    width: 50%;
+    text-align: center;
+    font-weight: 300;
+    line-height: 10px;
+    margin: 0px 0px 0 0px;
+    color: #1F2F50;
     line-height: 23px;
 }
