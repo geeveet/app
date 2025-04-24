@@ -406,3 +406,24 @@ h2{
     box-shadow: 0 0 4px rgba(0,0,0,0.3);
   }
   
+  .boton_adjuntar{
+    height: 22px;
+    width: 120px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #1E2F50;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.adjuntar{
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;   
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    color: #1F2F50;
+    
+}

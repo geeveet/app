@@ -453,21 +453,13 @@ h2{
     margin-top: 40px;
 }
 
-.geeveet_buscador{
-    width: 80%;
-    height: 90px;
-    margin: 10px auto;
-    border-radius: 18px;
-    background-color: #ddd;
-    
-}
 
 .buscador_titol{
     font-family: "montserrat", sans-serif;
     font-weight: 500;   
     font-size: 17px;
     margin: 0;
-    max-width: 50%;
+    max-width: 57%;
     color: #fff;
     text-align: left;
 }
@@ -496,7 +488,7 @@ h2{
 .buscador_dades{
     position: absolute;
     left: 0px;
-    top: 10%;
+    top: 5%;
     transform: translateY(-50%);
     font-family: "montserrat", sans-serif;
     font-weight: 400;   
@@ -508,11 +500,14 @@ h2{
 .geeveet_buscador {
     font-family: "montserrat", sans-serif;
     font-weight: 500;   
+    height: 90px;
+    width: 80%;
+    margin: 10px auto;
     position: relative;
     background-size: cover;
     background-position: center;
     border-radius: 16px;
-    padding: 20px;
+    padding: 15px;
     color: white;
     margin-bottom: 16px;
     overflow: hidden; 
@@ -854,3 +849,45 @@ h2{
     color: #B5B5B5;
     text-align: left;
 }
+
+.titol_agraiment{
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.titol_categoria{
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin: 46px auto 0px auto;
+}
+
+.foto_perfil_obert{
+    height: 118px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+}
+
+.valoracio_entitat{
+    height: 17px;
+    width: auto;
+}
+
+.subtitol_valoracio{
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;   
+    font-size: 17px;
+    margin: 0px 0px 0px;
+    color: #1F2F50;
+}
+
+.entitat_menu{
+    margin: 0 30px 20px 30px;
+}
+
