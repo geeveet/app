@@ -397,6 +397,10 @@ h2{
     margin-top: 70px;
 }
 
+.botons_entitat{
+    margin-top: 40px;
+}
+
 .search-container {
     position: relative; 
     flex-grow: 1; 
@@ -790,6 +794,27 @@ h2{
     text-align: left;
 }
 
+
+
+.formulario_perfil_ajust_ubi{
+    width: 83%;
+    height: 66px;
+    background-color: #fff;
+    margin: 6px auto;
+    border-radius: 15px;
+    display:flex;
+    border-color: #1E2F50;
+    border-style: solid;
+}
+
+.formulario_perfil_ajust_ubi p{
+    margin: 12px 20px;
+    color: #1E2F50;
+    text-align: left;
+}
+
+
+
 .formulario_perfil_ajust_moti{
     width: 83%;
     height: 160px;
@@ -891,3 +916,59 @@ h2{
     margin: 0 30px 20px 30px;
 }
 
+
+.escull_foto{
+    height: 118px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 15px;
+    background-color: white;
+    border-color: #1E2F50;
+    border-style: solid;
+    text-align: left;
+}
+
+
+.escull_foto svg{
+    margin: 15px 20px;
+    fill: #1E2F50;
+}
+
+.data_hora_entitat{
+    display: flex;
+    justify-content: space-between; /* o "center", según lo que busques */
+    gap: 10px; /* ajusta este valor para reducir o aumentar la separación */
+    margin: 0px auto; /* margen general */
+    width: fit-content; /* o un ancho específico */
+}
+
+.data_hora_entitat > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario_perfil_enti_sug {
+    width: 170px;
+    height: 45px;
+    background-color: #fff;
+    margin: 6px auto;
+    border-radius: 15px;
+    display: flex;
+    border-color: #1E2F50;
+    border-style: solid;
+}
+
+.formulario_perfil_enti_sug p{
+    margin: 12px 20px;
+    color: #1E2F50;
+    text-align: left;
+}
+
+.emplena_formulari{
+    text-align: left;
+    margin: 20px 10px 0;
+    font-size: 17px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
