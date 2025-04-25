@@ -273,7 +273,7 @@ h2{
 
 .desc_agraiment{
     font-family: "montserrat", sans-serif;
-    font-weight: 400;   
+    font-weight: 300;   
     font-size: 16px;
     margin: 20px auto 0px 0px;
     text-align: center;
@@ -611,6 +611,34 @@ h2{
     background-image: url('../img/img_entidad.jpg');
     background-size: cover;
 }
+
+.fondo8 {
+    background-image: url('../img/distribution-workers-non-profit-organization-distributing-donations.jpg');
+    background-size: cover;
+}
+
+.fondo9 {
+    background-image: url('../img/pexels-mikhail-nilov-8543570.jpg');
+    background-size: cover;
+}
+
+.fondo12{
+    background-image: url('../img/beautiful-volunteer-woman-posing-city-park.jpg');
+    background-size: cover;
+}
+.fondo13{
+    background-image: url('../img/pexels-rdne-6646981.jpg');
+    background-size: cover;
+}
+.fondo14{
+    background-image: url('../img/authentic-scenes-plus-size-males-playing-basketball.jpg');
+    background-size: cover;
+}
+.fondo15{
+    background-image: url('../img/pexels-rdne-6646915.jpg');
+    background-size: cover;
+}
+
 
 .categories_recomanats{
     font-family: "montserrat", sans-serif;
