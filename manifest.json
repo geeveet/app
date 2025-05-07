@@ -1,0 +1,21 @@
+{
+    "name": "GEEVEET",
+    "short_name": "GEEVEET",
+    "start_url": "./",
+    "display": "standalone",
+    "background_color": "#E3EAF8",
+    "theme_color": "#E3EAF8",
+    "icons": [
+      {
+        "src": "img/apv.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "img/apv.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
