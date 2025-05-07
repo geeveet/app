@@ -1,7 +1,7 @@
 {
-    "name": "GEEVEET",
-    "short_name": "GEEVEET",
-    "start_url": "./",
+    "name": "Geeveet",
+    "short_name": "Geeveet",
+    "start_url": "pagina_principal.html",
     "display": "standalone",
     "background_color": "#E3EAF8",
     "theme_color": "#E3EAF8",
@@ -18,4 +18,3 @@
       }
     ]
   }
-  
